@@ -6,10 +6,9 @@ sc config DiagTrack start= disabled
 sc stop dmwappushservice
 sc config dmwappushservice start= disabled
 REM *********************
-REM Stop and disable Windows update service
+REM Stop Windows update service
 REM *********************
 sc stop wuauserv
-sc config wuauserv start= disabled
 REM *********************
 REM Delete any existing shadow copies
 REM *********************
